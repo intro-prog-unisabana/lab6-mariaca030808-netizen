@@ -1,5 +1,4 @@
-scores = []
-
+scores = {}
 while True:
     user_input = input("Enter player and score as 'name score' (or type 'stop' to finish):\n")
     if user_input.lower() == "stop":
@@ -8,7 +7,7 @@ while True:
     name, score = user_input.split()
     score = int(score)
     if name in scores:
-        scores[name] -= score
+        scores[name] += score
     else:
         scores[name] = score
 
