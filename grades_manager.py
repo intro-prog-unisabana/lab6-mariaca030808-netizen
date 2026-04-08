@@ -25,3 +25,16 @@ def add_student(student_grades= None):
 
     print(f"Student {Name} successfully added to the grades management system.")
     return student_grades
+
+#P3
+def get_students(student_grades, keys):
+    result = {}
+    for nombre in keys:
+        counter =0
+        for student in student_grades:
+            if student.title() == nombre.title():
+                result[student] = student_grades[student]
+                counter = counter + 1
+        if counter == 0:
+            print(nombre.title(), "not found!")
+    return result
