@@ -2,7 +2,6 @@
 def temp_and_color(data):
     temp= data.get("temp")
     color= data.get("color")
-    print(temp_and_color(data))
     return temp, color
 
 
