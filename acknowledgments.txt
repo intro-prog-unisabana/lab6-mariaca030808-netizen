@@ -34,4 +34,5 @@ https://github.com/intro-prog-unisabana/lab6-mariaca030808-netizen.git
  *      con las regulaciones de la Universidad.  /s/ Ada Lovelace
  ******************************************************************************/
 
-Este laboratorio de programación representa mi propio trabajo de acuerdo con el reglamiento estudiantil de la Universodad. /s/ Maria Camila Murcia
+Este laboratorio de programación representa mi propio trabajo de acuerdo con el reglamiento estudiantil de la Universodad. /s/ Maria Camila Murcia. 
+
