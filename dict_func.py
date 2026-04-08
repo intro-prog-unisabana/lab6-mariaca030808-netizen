@@ -10,5 +10,5 @@ def employee_print(employee_info):
     if len(employee_info) == 0:
         print("No other info!")
     else:
-        for key, value in employee_info.items():
-          print(key + ":", value)
+        for clave, valor in employee_info.items():
+          print(clave + ":", valor)
