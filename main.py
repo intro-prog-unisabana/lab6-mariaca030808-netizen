@@ -30,3 +30,4 @@ def main():
             break
         else:
             print("Invalid option selected!")
+main()
