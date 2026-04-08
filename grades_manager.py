@@ -38,3 +38,20 @@ def get_students(student_grades, keys):
         if counter == 0:
             print(nombre.title(), "not found!")
     return result
+
+#P4
+def avg_by_student(student_grades, keys= None):
+    if keys == None:
+        Studentss= student_grades
+    else:
+        Studentss= get_students(student_grades, keys)
+
+    for student in Studentss:
+        grades= Studentss[student]
+        total= 0
+        count= 0
+        for subject in grades:
+            total= total + grades[subject]
+            count = count + 1
+        average= total / count
+        print(f"{student}: {average:.1f}")
